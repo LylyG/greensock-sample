@@ -1,8 +1,17 @@
 @font-face {
-	font-family: 'UniversLTStd';
-	src:url('..fonts/UniversLTStd.otf') format('otf');
+	font-family: "UniversLTStd";
+	src: url("..fonts/UniversLTStd.otf") format('opentype');
 	font-weight: normal;
 	font-style: normal;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 #banner {
@@ -16,6 +25,13 @@
 }
 
 #logo {
+}
+
+.second-slide #message1 {
+	font-size: 60px;
+	font-family: "UniversLTStd";
+	color: #02bff1;
+
 }
 
 #dotted-circle {
