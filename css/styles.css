@@ -1,9 +1,39 @@
-body {
-	background-color: blue;
+@font-face {
+	font-family: 'UniversLTStd';
+	src:url('..fonts/UniversLTStd.otf') format('otf');
+	font-weight: normal;
+	font-style: normal;
 }
 
-h1 {
-	color: red;
+#banner {
+	width: 889px;
+	height: 163px;
+	overflow: hidden;
+	border: 2px solid #02bff1;
+	position: relative;
+	background-color: white;
+	
 }
+
+#logo {
+}
+
+#dotted-circle {
+	background-image: url("../images/dottedCircle.png");
+}
+
+#top-left-dot {
+	background-image: url("../images/topLeftDot.png");
+}
+
+#top-middle-dot {
+	background-image: url("../images/topLeftDot.png");
+}
+
+#top-right-dot {
+	background-image: url("../images/topLeftDot.png");
+}
+
+
 
 
