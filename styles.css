@@ -1,0 +1,15 @@
+#banner {
+	max-width: 1000px;
+	max-height: 800px;
+	overflow: hidden;
+	border: 2px solid #02bff1;
+	position: relative;
+	background-image: url("../images/LO-Full-Logo.png");
+	
+}
+
+#logo {
+	
+}
+
+
